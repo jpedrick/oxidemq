@@ -1,0 +1,12 @@
+[package]
+name = "oxidemq"
+version = "0.1.0"
+edition = "2021"
+authors = ["Joshua Pedrick(joshua.pedrick@gmail.com)"]
+license = "LGPL"
+repository = "https://github.com/jpedrick/oxidemq.git"
+description = "Rust based message queueing framework with an emphasis on reliable multicast"
+
+
+[dependencies]
+tokio = "1.36"
